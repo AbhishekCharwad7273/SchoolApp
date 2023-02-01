@@ -1,47 +1,35 @@
 package com.SchoolApp.Entity;
 
-import java.util.List;
-
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
-import org.hibernate.annotations.ForeignKey;
-
 import lombok.AllArgsConstructor;
-
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+
 
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Parent {
-	
+public class AproveDetails {
+
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "registration_ID")
-	private Long registration_ID;
-	
-	
-	
+	private Long approveRegistration_ID;
+
 	@NotEmpty
 	private String student_Register_Number;
+	
+	private boolean approved=false;
 	
 	@NotEmpty
 	@Pattern(regexp="[a-zA-Z\\s]+", message="Name should contain only alphabets and spaces")
@@ -89,6 +77,4 @@ public class Parent {
 	@Pattern(regexp = "\\d{10}", message="Mobile Number Should 10 Digit")
 	private String secondary_Contact_Person_Mobile_No;
 	
-	
-
 }

@@ -42,17 +42,5 @@ public class UserController {
 	}
 	
 
-	@GetMapping({"/forAdmin"})
-	@PreAuthorize("hasRole('Admin')")	
-	public String forAdmin()
-	{
-		return "this url only accessible admin";
-	}
 	
-	@GetMapping({"/forUser"})
-	@PreAuthorize("hasRole('User')")	
-	public String forUser()
-	{
-		return "this url only accessible user";
-	}
 }
