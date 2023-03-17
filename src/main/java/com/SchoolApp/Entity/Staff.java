@@ -11,12 +11,14 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.PastOrPresent;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
 @Getter
+@Builder
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
@@ -35,6 +37,6 @@ public class Staff {
 	@NotEmpty
 	private String notification_Posted_By;
 	
-	
+	private boolean acknowledged;
 	
 }

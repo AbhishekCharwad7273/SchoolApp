@@ -1,0 +1,116 @@
+[2023-02-06 13:06:50] - Processing attribute `userFirstName` : value = staff
+[2023-02-06 13:06:50] - Attribute (`userFirstName`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:06:50] - Processing attribute `userLastName` : value = staff
+[2023-02-06 13:06:50] - Attribute (`userLastName`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:06:50] - Processing attribute `userPassword` : value = $2a$10$dR4TQ.zmS6w0JUXg5SvRv.o.ODV7joOa/ICaMWZL93.gry4jw/Zj2
+[2023-02-06 13:06:50] - Attribute (`userPassword`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:06:50] - Done materializing entity [com.SchoolApp.Entity.User#staff123]
+[2023-02-06 13:06:50] - 1 collections were found in result set for role: com.SchoolApp.Entity.User.role
+[2023-02-06 13:06:50] - Collection fully initialized: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:06:50] - 1 collections initialized for role: com.SchoolApp.Entity.User.role
+[2023-02-06 13:06:50] - Done entity load
+[2023-02-06 13:06:50] - Initiating transaction commit
+[2023-02-06 13:06:50] - Committing JPA transaction on EntityManager [SessionImpl(448206835<open>)]
+[2023-02-06 13:06:50] - committing
+[2023-02-06 13:06:50] - Processing flush-time cascades
+[2023-02-06 13:06:50] - Dirty checking collections
+[2023-02-06 13:06:50] - Collection dirty: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:06:50] - Collection found: [com.SchoolApp.Entity.User.role#staff123], was: [com.SchoolApp.Entity.User.role#staff123] (initialized)
+[2023-02-06 13:06:50] - Flushed: 0 insertions, 1 updates, 0 deletions to 2 objects
+[2023-02-06 13:06:50] - Flushed: 0 (re)creations, 1 updates, 0 removals to 1 collections
+[2023-02-06 13:06:50] - Listing entities:
+[2023-02-06 13:06:50] - com.SchoolApp.Entity.User{userPassword=$2a$10$m71FU/ZXn8qSPCAoo9nEGetmP8V9kXnoMcDAnmYTpIRxna.ryLpKO, role=[com.SchoolApp.Entity.Role#Staff], userLastName=staff, userFirstName=staff, userName=staff123}
+[2023-02-06 13:06:50] - com.SchoolApp.Entity.Role{roleName=Staff, roleDescription=Staff Role}
+[2023-02-06 13:06:50] - update user set user_first_name=?, user_last_name=?, user_password=? where user_name=?
+[2023-02-06 13:06:50] - Deleting rows of collection: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:06:50] - No rows to delete
+[2023-02-06 13:06:50] - Inserting rows of collection: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:06:50] - Done inserting rows: 0 inserted
+[2023-02-06 13:06:50] - Closing JPA EntityManager [SessionImpl(448206835<open>)] after transaction
+[2023-02-06 13:06:50] - HHH000420: Closing un-released batch
+[2023-02-06 13:06:50] - Creating shared instance of singleton bean 'validationHandler'
+[2023-02-06 13:06:50] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+[2023-02-06 13:06:50] - Creating shared instance of singleton bean 'delegatingApplicationListener'
+[2023-02-06 13:06:50] - Creating shared instance of singleton bean 'springSecurityFilterChain'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'mvcHandlerMappingIntrospector'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'mvcConversionService'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71cf1b07'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2023-02-06 13:06:51] - 
+	c.S.C.AcknowledgedDetailsController:
+	{PUT [/acknowledgeDetails]}: acknowledgeDetails(AcknowledgedDetails)
+[2023-02-06 13:06:51] - 
+	c.S.C.AproveDetailsController:
+	{PUT [/approve]}: updateDetails(AproveDetails)
+[2023-02-06 13:06:51] - 
+	c.S.C.JwtController:
+	{POST [/authenticate]}: createJwtToken(JwtRequest)
+[2023-02-06 13:06:51] - 
+	c.S.C.ParentController:
+	{GET [/getAllParentDetail]}: getAllParentDetails()
+	{PUT [/updateParentDetail]}: updateParentDetail(Parent)
+	{POST [/addParentDetail]}: addParentDetail(Parent)
+[2023-02-06 13:06:51] - 
+	c.S.C.RoleController:
+	{POST [/{createNewRole}]}: createNewRole(Role)
+[2023-02-06 13:06:51] - 
+	c.S.C.StaffController:
+	{POST [/createCircular]}: createCircular(Staff)
+	{GET [/getAllCircular]}: getAllCircular()
+[2023-02-06 13:06:51] - 
+	c.S.C.UserController:
+	{POST [/registerNewUser]}: registerNewUser(User)
+[2023-02-06 13:06:51] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+[2023-02-06 13:06:51] - 12 mappings in 'requestMappingHandlerMapping'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2023-02-06 13:06:51] - 'beanNameHandlerMapping' {}
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'routerFunctionMapping'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'messageConverters'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'stringHttpMessageConverter'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'jacksonObjectMapper'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71cf1b07'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71cf1b07'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'parameterNamesModule'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'jsonComponentModule'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'jsonMixinModule'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'jsonMixinModule' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@71cf1b07'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'jacksonGeoModule'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+[2023-02-06 13:06:51] - Creating shared instance of singleton bean 'resourceHandlerMapping'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+[2023-02-06 13:06:51] - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+[2023-02-06 13:06:51] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]}

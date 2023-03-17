@@ -1,4 +1,4 @@
-package com.SchoolApp.Entity;
+	package com.SchoolApp.Entity;
 
 import java.util.Set;
 

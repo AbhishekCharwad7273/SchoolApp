@@ -1,0 +1,82 @@
+[2023-02-06 13:06:53] - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+[2023-02-06 13:07:13] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2023-02-06 13:07:13] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2023-02-06 13:07:23] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[2023-02-06 13:07:23] - HV000001: Hibernate Validator 6.2.5.Final
+[2023-02-06 13:07:23] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2023-02-06 13:07:23] - Trying to load META-INF/validation.xml via TCCL
+[2023-02-06 13:07:23] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2023-02-06 13:07:23] - No META-INF/validation.xml found. Using annotation based configuration only.
+[2023-02-06 13:07:23] - Starting SchoolAppApplication using Java 17.0.3 on DESKTOP-FH5TD9M with PID 3640 (E:\stsproject\SchoolApp\target\classes started by Dell in E:\stsproject\SchoolApp)
+[2023-02-06 13:07:23] - Running with Spring Boot v2.7.8, Spring v5.3.25
+[2023-02-06 13:07:23] - No active profile set, falling back to 1 default profile: "default"
+[2023-02-06 13:07:23] - Loading source class com.SchoolApp.SchoolAppApplication
+[2023-02-06 13:07:23] - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+[2023-02-06 13:07:23] - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+[2023-02-06 13:07:23] - Loaded expression factory via original TCCL
+[2023-02-06 13:07:23] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f7a7219
+[2023-02-06 13:07:23] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2023-02-06 13:07:23] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2023-02-06 13:07:23] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Configuration\CorsConfiguration.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Configuration\JwtAuthenticationEntryPoint.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Configuration\JwtRequestFilter.class]
+[2023-02-06 13:07:23] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[2023-02-06 13:07:23] - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+[2023-02-06 13:07:23] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[2023-02-06 13:07:23] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[2023-02-06 13:07:23] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Configuration\WebSecurityConfiguration.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Controller\AcknowledgedDetailsController.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Controller\AproveDetailsController.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Controller\JwtController.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Controller\ParentController.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Controller\RoleController.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Controller\StaffController.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Controller\UserController.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Controller\ValidationHandler.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Services\AcknowledgedDetailsService.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Services\ApproveDetailsService.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Services\JwtService.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Services\ParentService.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Services\RoleService.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Services\StaffService.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Services\UserService.class]
+[2023-02-06 13:07:23] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Util\JwtUtil.class]
+[2023-02-06 13:07:24] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-02-06 13:07:24] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2023-02-06 13:07:24] - @EnableAutoConfiguration was declared on a class in the package 'com.SchoolApp'. Automatic @Repository and @Entity scanning is enabled.
+[2023-02-06 13:07:24] - Scanning for JPA repositories in packages com.SchoolApp.
+[2023-02-06 13:07:24] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Repository\AcknowledgedDetailsRepo.class]
+[2023-02-06 13:07:24] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Repository\AproveDetailsRepo.class]
+[2023-02-06 13:07:24] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Repository\ParentRepo.class]
+[2023-02-06 13:07:24] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Repository\RoleRepo.class]
+[2023-02-06 13:07:24] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Repository\StaffRepo.class]
+[2023-02-06 13:07:24] - Identified candidate component class: file [E:\stsproject\SchoolApp\target\classes\com\SchoolApp\Repository\UserRepo.class]
+[2023-02-06 13:07:24] - Finished Spring Data repository scanning in 200 ms. Found 6 JPA repository interfaces.
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'conversionServicePostProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'methodValidationPostProcessor'
+[2023-02-06 13:07:25] - Autowiring by type from bean name 'methodValidationPostProcessor' via factory method to bean named 'environment'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.EnableConfigurationPropertiesRegistrar.methodValidationExcludeFilter'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+[2023-02-06 13:07:25] - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'metaDataSourceAdvisor'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'methodSecurityMetadataSource'
+[2023-02-06 13:07:25] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration'

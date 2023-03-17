@@ -1,0 +1,232 @@
+[2023-02-06 13:07:28] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.Role
+[2023-02-06 13:07:28] - Not known whether passed class name [com.SchoolApp.Entity.AcknowledgedDetails] is safe
+[2023-02-06 13:07:28] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.AcknowledgedDetails
+[2023-02-06 13:07:28] - Not known whether passed class name [com.SchoolApp.Entity.AproveDetails] is safe
+[2023-02-06 13:07:28] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.AproveDetails
+[2023-02-06 13:07:28] - Not known whether passed class name [com.SchoolApp.Entity.Parent] is safe
+[2023-02-06 13:07:28] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.Parent
+[2023-02-06 13:07:28] - Not known whether passed class name [com.SchoolApp.Entity.Staff] is safe
+[2023-02-06 13:07:28] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.Staff
+[2023-02-06 13:07:28] - Not known whether passed class name [com.SchoolApp.Entity.User] is safe
+[2023-02-06 13:07:28] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.User
+[2023-02-06 13:07:28] - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2023-02-06 13:07:28] - Skipping JACC integration as it was not enabled
+[2023-02-06 13:07:28] - Instantiated session factory
+[2023-02-06 13:07:28] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@38e46765] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@3adde4ea]
+[2023-02-06 13:07:28] - Not known whether passed class name [com.SchoolApp.Entity.Role] is safe
+[2023-02-06 13:07:28] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.Role
+[2023-02-06 13:07:29] - Not known whether passed class name [com.SchoolApp.Entity.AcknowledgedDetails] is safe
+[2023-02-06 13:07:29] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.AcknowledgedDetails
+[2023-02-06 13:07:29] - Not known whether passed class name [com.SchoolApp.Entity.AproveDetails] is safe
+[2023-02-06 13:07:29] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.AproveDetails
+[2023-02-06 13:07:29] - Not known whether passed class name [com.SchoolApp.Entity.Parent] is safe
+[2023-02-06 13:07:29] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.Parent
+[2023-02-06 13:07:29] - Not known whether passed class name [com.SchoolApp.Entity.Staff] is safe
+[2023-02-06 13:07:29] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.Staff
+[2023-02-06 13:07:29] - Not known whether passed class name [com.SchoolApp.Entity.User] is safe
+[2023-02-06 13:07:29] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.User
+[2023-02-06 13:07:29] - Static SQL for collection: com.SchoolApp.Entity.User.role
+[2023-02-06 13:07:29] -  Row insert: insert into user_role (user_id, role_id) values (?, ?)
+[2023-02-06 13:07:29] -  Row update: update user_role set role_id=? where user_id=? and role_id=?
+[2023-02-06 13:07:29] -  Row delete: delete from user_role where user_id=? and role_id=?
+[2023-02-06 13:07:29] -  One-shot delete: delete from user_role where user_id=?
+[2023-02-06 13:07:29] - Static SQL for entity: com.SchoolApp.Entity.Role
+[2023-02-06 13:07:29] -  Version select: select role_name from role where role_name =?
+[2023-02-06 13:07:29] -  Snapshot select: select role_.role_name, role_.role_description as role_des2_3_ from role role_ where role_.role_name=?
+[2023-02-06 13:07:29] -  Insert 0: insert into role (role_description, role_name) values (?, ?)
+[2023-02-06 13:07:29] -  Update 0: update role set role_description=? where role_name=?
+[2023-02-06 13:07:29] -  Delete 0: delete from role where role_name=?
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@66e218d8]
+[2023-02-06 13:07:29] - Visiting attribute path : roleDescription
+[2023-02-06 13:07:29] - Building LoadPlan...
+[2023-02-06 13:07:29] - processing queryspace <gen:0>
+[2023-02-06 13:07:29] - LoadPlan(entity=com.SchoolApp.Entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.Role, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.Role)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {role_nam1_3_0_}
+
+[2023-02-06 13:07:29] - Static select for entity com.SchoolApp.Entity.Role [NONE]: select role0_.role_name as role_nam1_3_0_, role0_.role_description as role_des2_3_0_ from role role0_ where role0_.role_name=?
+[2023-02-06 13:07:29] - Static SQL for entity: com.SchoolApp.Entity.AcknowledgedDetails
+[2023-02-06 13:07:29] -  Version select: select ack_id from acknowledged_details where ack_id =?
+[2023-02-06 13:07:29] -  Snapshot select: select acknowledg_.ack_id, acknowledg_.acknowledged as acknowle2_0_, acknowledg_.information_text as informat3_0_, acknowledg_.notification_date as notifica4_0_, acknowledg_.notification_posted_by as notifica5_0_, acknowledg_.registration_id as registra6_0_ from acknowledged_details acknowledg_ where acknowledg_.ack_id=?
+[2023-02-06 13:07:29] -  Insert 0: insert into acknowledged_details (acknowledged, information_text, notification_date, notification_posted_by, registration_id, ack_id) values (?, ?, ?, ?, ?, ?)
+[2023-02-06 13:07:29] -  Update 0: update acknowledged_details set acknowledged=?, information_text=?, notification_date=?, notification_posted_by=?, registration_id=? where ack_id=?
+[2023-02-06 13:07:29] -  Delete 0: delete from acknowledged_details where ack_id=?
+[2023-02-06 13:07:29] -  Identity insert: insert into acknowledged_details (acknowledged, information_text, notification_date, notification_posted_by, registration_id) values (?, ?, ?, ?, ?)
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@af94b0b]
+[2023-02-06 13:07:29] - Visiting attribute path : acknowledged
+[2023-02-06 13:07:29] - Visiting attribute path : information_Text
+[2023-02-06 13:07:29] - Visiting attribute path : notification_Date
+[2023-02-06 13:07:29] - Visiting attribute path : notification_Posted_By
+[2023-02-06 13:07:29] - Visiting attribute path : parent
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@333efb51]
+[2023-02-06 13:07:29] - Building LoadPlan...
+[2023-02-06 13:07:29] - processing queryspace <gen:0>
+[2023-02-06 13:07:29] - LoadPlan(entity=com.SchoolApp.Entity.AcknowledgedDetails)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.AcknowledgedDetails, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.AcknowledgedDetails)
+          - EntityAttributeFetchImpl(entity=com.SchoolApp.Entity.Parent, querySpaceUid=<gen:1>, path=com.SchoolApp.Entity.AcknowledgedDetails.parent)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.AcknowledgedDetails)
+          - SQL table alias mapping - acknowledg0_
+          - alias suffix - 0_
+          - suffixed key columns - {ack_id1_0_0_}
+
+[2023-02-06 13:07:29] - Static select for entity com.SchoolApp.Entity.AcknowledgedDetails [NONE]: select acknowledg0_.ack_id as ack_id1_0_0_, acknowledg0_.acknowledged as acknowle2_0_0_, acknowledg0_.information_text as informat3_0_0_, acknowledg0_.notification_date as notifica4_0_0_, acknowledg0_.notification_posted_by as notifica5_0_0_, acknowledg0_.registration_id as registra6_0_0_ from acknowledged_details acknowledg0_ where acknowledg0_.ack_id=?
+[2023-02-06 13:07:29] - Static SQL for entity: com.SchoolApp.Entity.AproveDetails
+[2023-02-06 13:07:29] -  Version select: select approve_registration_id from aprove_details where approve_registration_id =?
+[2023-02-06 13:07:29] -  Snapshot select: select aprovedeta_.approve_registration_id, aprovedeta_.address as address2_1_, aprovedeta_.approved as approved3_1_, aprovedeta_.city as city4_1_, aprovedeta_.country as country5_1_, aprovedeta_.email_address as email_ad6_1_, aprovedeta_.parent_name as parent_n7_1_, aprovedeta_.primary_contact_person_mobile_no as primary_8_1_, aprovedeta_.primary_contact_person_name as primary_9_1_, aprovedeta_.secondary_contact_person_mobile_no as seconda10_1_, aprovedeta_.secondary_contact_person_name as seconda11_1_, aprovedeta_.state as state12_1_, aprovedeta_.student_name as student13_1_, aprovedeta_.student_register_number as student14_1_, aprovedeta_.zip_code as zip_cod15_1_ from aprove_details aprovedeta_ where aprovedeta_.approve_registration_id=?
+[2023-02-06 13:07:29] -  Insert 0: insert into aprove_details (address, approved, city, country, email_address, parent_name, primary_contact_person_mobile_no, primary_contact_person_name, secondary_contact_person_mobile_no, secondary_contact_person_name, state, student_name, student_register_number, zip_code, approve_registration_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[2023-02-06 13:07:29] -  Update 0: update aprove_details set address=?, approved=?, city=?, country=?, email_address=?, parent_name=?, primary_contact_person_mobile_no=?, primary_contact_person_name=?, secondary_contact_person_mobile_no=?, secondary_contact_person_name=?, state=?, student_name=?, student_register_number=?, zip_code=? where approve_registration_id=?
+[2023-02-06 13:07:29] -  Delete 0: delete from aprove_details where approve_registration_id=?
+[2023-02-06 13:07:29] -  Identity insert: insert into aprove_details (address, approved, city, country, email_address, parent_name, primary_contact_person_mobile_no, primary_contact_person_name, secondary_contact_person_mobile_no, secondary_contact_person_name, state, student_name, student_register_number, zip_code) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f95654c]
+[2023-02-06 13:07:29] - Visiting attribute path : address
+[2023-02-06 13:07:29] - Visiting attribute path : approved
+[2023-02-06 13:07:29] - Visiting attribute path : city
+[2023-02-06 13:07:29] - Visiting attribute path : country
+[2023-02-06 13:07:29] - Visiting attribute path : email_Address
+[2023-02-06 13:07:29] - Visiting attribute path : parent_Name
+[2023-02-06 13:07:29] - Visiting attribute path : primary_Contact_Person_Mobile_No
+[2023-02-06 13:07:29] - Visiting attribute path : primary_Contact_Person_Name
+[2023-02-06 13:07:29] - Visiting attribute path : secondary_Contact_Person_Mobile_No
+[2023-02-06 13:07:29] - Visiting attribute path : secondary_Contact_Person_Name
+[2023-02-06 13:07:29] - Visiting attribute path : state
+[2023-02-06 13:07:29] - Visiting attribute path : student_Name
+[2023-02-06 13:07:29] - Visiting attribute path : student_Register_Number
+[2023-02-06 13:07:29] - Visiting attribute path : zip_Code
+[2023-02-06 13:07:29] - Building LoadPlan...
+[2023-02-06 13:07:29] - processing queryspace <gen:0>
+[2023-02-06 13:07:29] - LoadPlan(entity=com.SchoolApp.Entity.AproveDetails)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.AproveDetails, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.AproveDetails)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.AproveDetails)
+          - SQL table alias mapping - aprovedeta0_
+          - alias suffix - 0_
+          - suffixed key columns - {approve_1_1_0_}
+
+[2023-02-06 13:07:29] - Static select for entity com.SchoolApp.Entity.AproveDetails [NONE]: select aprovedeta0_.approve_registration_id as approve_1_1_0_, aprovedeta0_.address as address2_1_0_, aprovedeta0_.approved as approved3_1_0_, aprovedeta0_.city as city4_1_0_, aprovedeta0_.country as country5_1_0_, aprovedeta0_.email_address as email_ad6_1_0_, aprovedeta0_.parent_name as parent_n7_1_0_, aprovedeta0_.primary_contact_person_mobile_no as primary_8_1_0_, aprovedeta0_.primary_contact_person_name as primary_9_1_0_, aprovedeta0_.secondary_contact_person_mobile_no as seconda10_1_0_, aprovedeta0_.secondary_contact_person_name as seconda11_1_0_, aprovedeta0_.state as state12_1_0_, aprovedeta0_.student_name as student13_1_0_, aprovedeta0_.student_register_number as student14_1_0_, aprovedeta0_.zip_code as zip_cod15_1_0_ from aprove_details aprovedeta0_ where aprovedeta0_.approve_registration_id=?
+[2023-02-06 13:07:29] - Static SQL for entity: com.SchoolApp.Entity.Parent
+[2023-02-06 13:07:29] -  Version select: select registration_id from parent where registration_id =?
+[2023-02-06 13:07:29] -  Snapshot select: select parent_.registration_id, parent_.address as address2_2_, parent_.city as city3_2_, parent_.country as country4_2_, parent_.email_address as email_ad5_2_, parent_.parent_name as parent_n6_2_, parent_.primary_contact_person_mobile_no as primary_7_2_, parent_.primary_contact_person_name as primary_8_2_, parent_.secondary_contact_person_mobile_no as secondar9_2_, parent_.secondary_contact_person_name as seconda10_2_, parent_.state as state11_2_, parent_.student_name as student12_2_, parent_.student_register_number as student13_2_, parent_.zip_code as zip_cod14_2_ from parent parent_ where parent_.registration_id=?
+[2023-02-06 13:07:29] -  Insert 0: insert into parent (address, city, country, email_address, parent_name, primary_contact_person_mobile_no, primary_contact_person_name, secondary_contact_person_mobile_no, secondary_contact_person_name, state, student_name, student_register_number, zip_code, registration_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[2023-02-06 13:07:29] -  Update 0: update parent set address=?, city=?, country=?, email_address=?, parent_name=?, primary_contact_person_mobile_no=?, primary_contact_person_name=?, secondary_contact_person_mobile_no=?, secondary_contact_person_name=?, state=?, student_name=?, student_register_number=?, zip_code=? where registration_id=?
+[2023-02-06 13:07:29] -  Delete 0: delete from parent where registration_id=?
+[2023-02-06 13:07:29] -  Identity insert: insert into parent (address, city, country, email_address, parent_name, primary_contact_person_mobile_no, primary_contact_person_name, secondary_contact_person_mobile_no, secondary_contact_person_name, state, student_name, student_register_number, zip_code) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@74c23525]
+[2023-02-06 13:07:29] - Visiting attribute path : address
+[2023-02-06 13:07:29] - Visiting attribute path : city
+[2023-02-06 13:07:29] - Visiting attribute path : country
+[2023-02-06 13:07:29] - Visiting attribute path : email_Address
+[2023-02-06 13:07:29] - Visiting attribute path : parent_Name
+[2023-02-06 13:07:29] - Visiting attribute path : primary_Contact_Person_Mobile_No
+[2023-02-06 13:07:29] - Visiting attribute path : primary_Contact_Person_Name
+[2023-02-06 13:07:29] - Visiting attribute path : secondary_Contact_Person_Mobile_No
+[2023-02-06 13:07:29] - Visiting attribute path : secondary_Contact_Person_Name
+[2023-02-06 13:07:29] - Visiting attribute path : state
+[2023-02-06 13:07:29] - Visiting attribute path : student_Name
+[2023-02-06 13:07:29] - Visiting attribute path : student_Register_Number
+[2023-02-06 13:07:29] - Visiting attribute path : zip_Code
+[2023-02-06 13:07:29] - Building LoadPlan...
+[2023-02-06 13:07:29] - processing queryspace <gen:0>
+[2023-02-06 13:07:29] - LoadPlan(entity=com.SchoolApp.Entity.Parent)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.Parent, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.Parent)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.Parent)
+          - SQL table alias mapping - parent0_
+          - alias suffix - 0_
+          - suffixed key columns - {registra1_2_0_}
+
+[2023-02-06 13:07:29] - Static select for entity com.SchoolApp.Entity.Parent [NONE]: select parent0_.registration_id as registra1_2_0_, parent0_.address as address2_2_0_, parent0_.city as city3_2_0_, parent0_.country as country4_2_0_, parent0_.email_address as email_ad5_2_0_, parent0_.parent_name as parent_n6_2_0_, parent0_.primary_contact_person_mobile_no as primary_7_2_0_, parent0_.primary_contact_person_name as primary_8_2_0_, parent0_.secondary_contact_person_mobile_no as secondar9_2_0_, parent0_.secondary_contact_person_name as seconda10_2_0_, parent0_.state as state11_2_0_, parent0_.student_name as student12_2_0_, parent0_.student_register_number as student13_2_0_, parent0_.zip_code as zip_cod14_2_0_ from parent parent0_ where parent0_.registration_id=?
+[2023-02-06 13:07:29] - Static SQL for entity: com.SchoolApp.Entity.Staff
+[2023-02-06 13:07:29] -  Version select: select staff_id from staff where staff_id =?
+[2023-02-06 13:07:29] -  Snapshot select: select staff_.staff_id, staff_.information_text as informat2_4_, staff_.notification_date as notifica3_4_, staff_.notification_posted_by as notifica4_4_ from staff staff_ where staff_.staff_id=?
+[2023-02-06 13:07:29] -  Insert 0: insert into staff (information_text, notification_date, notification_posted_by, staff_id) values (?, ?, ?, ?)
+[2023-02-06 13:07:29] -  Update 0: update staff set information_text=?, notification_date=?, notification_posted_by=? where staff_id=?
+[2023-02-06 13:07:29] -  Delete 0: delete from staff where staff_id=?
+[2023-02-06 13:07:29] -  Identity insert: insert into staff (information_text, notification_date, notification_posted_by) values (?, ?, ?)
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@531bec12]
+[2023-02-06 13:07:29] - Visiting attribute path : information_Text
+[2023-02-06 13:07:29] - Visiting attribute path : notification_Date
+[2023-02-06 13:07:29] - Visiting attribute path : notification_Posted_By
+[2023-02-06 13:07:29] - Building LoadPlan...
+[2023-02-06 13:07:29] - processing queryspace <gen:0>
+[2023-02-06 13:07:29] - LoadPlan(entity=com.SchoolApp.Entity.Staff)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.Staff, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.Staff)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.Staff)
+          - SQL table alias mapping - staff0_
+          - alias suffix - 0_
+          - suffixed key columns - {staff_id1_4_0_}
+
+[2023-02-06 13:07:29] - Static select for entity com.SchoolApp.Entity.Staff [NONE]: select staff0_.staff_id as staff_id1_4_0_, staff0_.information_text as informat2_4_0_, staff0_.notification_date as notifica3_4_0_, staff0_.notification_posted_by as notifica4_4_0_ from staff staff0_ where staff0_.staff_id=?
+[2023-02-06 13:07:29] - Static SQL for entity: com.SchoolApp.Entity.User
+[2023-02-06 13:07:29] -  Version select: select user_name from user where user_name =?
+[2023-02-06 13:07:29] -  Snapshot select: select user_.user_name, user_.user_first_name as user_fir2_5_, user_.user_last_name as user_las3_5_, user_.user_password as user_pas4_5_ from user user_ where user_.user_name=?
+[2023-02-06 13:07:29] -  Insert 0: insert into user (user_first_name, user_last_name, user_password, user_name) values (?, ?, ?, ?)
+[2023-02-06 13:07:29] -  Update 0: update user set user_first_name=?, user_last_name=?, user_password=? where user_name=?
+[2023-02-06 13:07:29] -  Delete 0: delete from user where user_name=?
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@41d84abb]
+[2023-02-06 13:07:29] - Visiting attribute path : role
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4fe9a396]
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@46a0ef6f]
+[2023-02-06 13:07:29] - Visiting attribute path : role.roleDescription
+[2023-02-06 13:07:29] - Visiting attribute path : userFirstName
+[2023-02-06 13:07:29] - Visiting attribute path : userLastName
+[2023-02-06 13:07:29] - Visiting attribute path : userPassword
+[2023-02-06 13:07:29] - Building LoadPlan...
+[2023-02-06 13:07:29] - processing queryspace <gen:0>
+[2023-02-06 13:07:29] - LoadPlan(entity=com.SchoolApp.Entity.User)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.User, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.User)
+          - CollectionAttributeFetchImpl(collection=com.SchoolApp.Entity.User.role, querySpaceUid=<gen:1>, path=com.SchoolApp.Entity.User.role)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.SchoolApp.Entity.Role, querySpaceUid=<gen:2>, path=com.SchoolApp.Entity.User.role.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_nam1_5_0_}
+          - JOIN (JoinDefinedByMetadata(role)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.SchoolApp.Entity.User.role)
+                - SQL table alias mapping - role1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id1_6_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - role_nam1_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.SchoolApp.Entity.Role)
+                      - SQL table alias mapping - role2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {role_nam1_3_2_}
+
+[2023-02-06 13:07:29] - Static select for entity com.SchoolApp.Entity.User [NONE]: select user0_.user_name as user_nam1_5_0_, user0_.user_first_name as user_fir2_5_0_, user0_.user_last_name as user_las3_5_0_, user0_.user_password as user_pas4_5_0_, role1_.user_id as user_id1_6_1_, role2_.role_name as role_id2_6_1_, role2_.role_name as role_nam1_3_2_, role2_.role_description as role_des2_3_2_ from user user0_ left outer join user_role role1_ on user0_.user_name=role1_.user_id left outer join role role2_ on role1_.role_id=role2_.role_name where user0_.user_name=?
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7320750c]
+[2023-02-06 13:07:29] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2570851e]
+[2023-02-06 13:07:29] - Visiting attribute path : roleDescription
+[2023-02-06 13:07:29] - Building LoadPlan...
+[2023-02-06 13:07:29] - processing queryspace <gen:0>
+[2023-02-06 13:07:29] - LoadPlan(collection=com.SchoolApp.Entity.User.role)
+    - Returns
+       - CollectionReturnImpl(collection=com.SchoolApp.Entity.User.role, querySpaceUid=<gen:0>, path=[com.SchoolApp.Entity.User.role])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.SchoolApp.Entity.Role, querySpaceUid=<gen:1>, path=[com.SchoolApp.Entity.User.role].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.SchoolApp.Entity.User.role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_6_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - role_nam1_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.SchoolApp.Entity.Role)
+                - SQL table alias mapping - role1_
+                - alias suffix - 1_
+                - suffixed key columns - {role_nam1_3_1_}
+
+[2023-02-06 13:07:29] - Static select for collection com.SchoolApp.Entity.User.role: select role0_.user_id as user_id1_6_0_, role0_.role_id as role_id2_6_0_, role1_.role_name as role_nam1_3_1_, role1_.role_description as role_des2_3_1_ from user_role role0_ inner join role role1_ on role0_.role_id=role1_.role_name where role0_.user_id=?

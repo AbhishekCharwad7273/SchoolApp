@@ -1,0 +1,103 @@
+[2023-02-06 13:07:29] - No alter strings for table : acknowledged_details
+[2023-02-06 13:07:29] - No alter strings for table : aprove_details
+[2023-02-06 13:07:29] - No alter strings for table : parent
+[2023-02-06 13:07:29] - No alter strings for table : role
+[2023-02-06 13:07:29] - No alter strings for table : staff
+[2023-02-06 13:07:29] - No alter strings for table : user
+[2023-02-06 13:07:29] - No alter strings for table : user_role
+[2023-02-06 13:07:29] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-02-06 13:07:29] - Checking 0 named HQL queries
+[2023-02-06 13:07:29] - Checking 0 named SQL queries
+[2023-02-06 13:07:29] - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2023-02-06 13:07:29] - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@5b31a9e3
+[2023-02-06 13:07:29] - Registering SessionFactory: 4304c343-385a-4893-b031-f3c47e2e142b (<unnamed>)
+[2023-02-06 13:07:29] - Not binding SessionFactory to JNDI, no JNDI name configured
+[2023-02-06 13:07:29] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-02-06 13:07:29] - Creating shared instance of singleton bean 'jpaMappingContext'
+[2023-02-06 13:07:29] - Initializing JpaMetamodelMappingContext…
+[2023-02-06 13:07:29] - Finished initializing JpaMetamodelMappingContext!
+[2023-02-06 13:07:29] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:29] - Statistics initialized [enabled=false]
+[2023-02-06 13:07:29] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:29] - Initializing repository instance for com.SchoolApp.Repository.UserRepo…
+[2023-02-06 13:07:29] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:29] - Finished creation of repository instance for com.SchoolApp.Repository.UserRepo.
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'authenticationManagerBean'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'webSecurityConfiguration'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'enableGlobalAuthenticationAutowiredConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f7a7219'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'initializeUserDetailsBeanManagerConfigurer'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'initializeUserDetailsBeanManagerConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f7a7219'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'initializeAuthenticationProviderBeanManagerConfigurer'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'initializeAuthenticationProviderBeanManagerConfigurer' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f7a7219'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1c4ee95c'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1c4ee95c'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptorConfigurer'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'openEntityManagerInViewInterceptor'
+[2023-02-06 13:07:30] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'openEntityManagerInViewInterceptorConfigurer' via factory method to bean named 'openEntityManagerInViewInterceptor'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.data.web.config.SpringDataWebConfiguration'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'org.springframework.data.web.config.SpringDataWebConfiguration' via constructor to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f7a7219'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'jwtAuthenticationEntryPoint'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'authenticationManagerBuilder'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'authenticationManagerBuilder' via factory method to bean named 'objectPostProcessor'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'authenticationManagerBuilder' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f7a7219'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'authenticationEventPublisher'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'authenticationEventPublisher' via factory method to bean named 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f7a7219'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'passwordEncoder'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'requestContextFilter'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'formContentFilter'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'characterEncodingFilter'
+[2023-02-06 13:07:30] - Mapping filters: springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, jwtRequestFilter urls=[/*] order=2147483647
+[2023-02-06 13:07:30] - Mapping servlets: dispatcherServlet urls=[/]
+[2023-02-06 13:07:30] - Filter 'requestContextFilter' configured for use
+[2023-02-06 13:07:30] - Filter 'characterEncodingFilter' configured for use
+[2023-02-06 13:07:30] - Filter 'springSecurityFilterChain' configured for use
+[2023-02-06 13:07:30] - Filter 'formContentFilter' configured for use
+[2023-02-06 13:07:30] - Filter 'jwtRequestFilter' configured for use
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'schoolAppApplication'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'corsConfiguration'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'acknowledgedDetailsController'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'acknowledgedDetailsService'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'acknowledgedDetailsRepo'
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Initializing repository instance for com.SchoolApp.Repository.AcknowledgedDetailsRepo…
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Finished creation of repository instance for com.SchoolApp.Repository.AcknowledgedDetailsRepo.
+[2023-02-06 13:07:30] - @org.springframework.security.access.prepost.PreAuthorize("hasRole(\'User\')") found on specific method: public org.springframework.http.ResponseEntity com.SchoolApp.Controller.AcknowledgedDetailsController.acknowledgeDetails(com.SchoolApp.Entity.AcknowledgedDetails)
+[2023-02-06 13:07:30] - Caching method [CacheKey[com.SchoolApp.Controller.AcknowledgedDetailsController; public org.springframework.http.ResponseEntity com.SchoolApp.Controller.AcknowledgedDetailsController.acknowledgeDetails(com.SchoolApp.Entity.AcknowledgedDetails)]] with attributes [[authorize: 'hasRole('User')', filter: 'null', filterTarget: 'null']]
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'methodSecurityInterceptor'
+[2023-02-06 13:07:30] - Autowiring by type from bean name 'methodSecurityInterceptor' via factory method to bean named 'methodSecurityMetadataSource'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'aproveDetailsController'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'approveDetailsService'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'aproveDetailsRepo'
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Initializing repository instance for com.SchoolApp.Repository.AproveDetailsRepo…
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Finished creation of repository instance for com.SchoolApp.Repository.AproveDetailsRepo.
+[2023-02-06 13:07:30] - @org.springframework.security.access.prepost.PreAuthorize("hasRole(\'Staff\')") found on specific method: public org.springframework.http.ResponseEntity com.SchoolApp.Controller.AproveDetailsController.updateDetails(com.SchoolApp.Entity.AproveDetails)
+[2023-02-06 13:07:30] - Caching method [CacheKey[com.SchoolApp.Controller.AproveDetailsController; public org.springframework.http.ResponseEntity com.SchoolApp.Controller.AproveDetailsController.updateDetails(com.SchoolApp.Entity.AproveDetails)]] with attributes [[authorize: 'hasRole('Staff')', filter: 'null', filterTarget: 'null']]
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'jwtController'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'parentController'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'parentService'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'parentRepo'
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Initializing repository instance for com.SchoolApp.Repository.ParentRepo…
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Finished creation of repository instance for com.SchoolApp.Repository.ParentRepo.
+[2023-02-06 13:07:30] - @org.springframework.security.access.prepost.PreAuthorize("hasAnyRole(\'User\',\'Staff\')") found on specific method: public java.util.List com.SchoolApp.Controller.ParentController.getAllParentDetails()
+[2023-02-06 13:07:30] - Caching method [CacheKey[com.SchoolApp.Controller.ParentController; public java.util.List com.SchoolApp.Controller.ParentController.getAllParentDetails()]] with attributes [[authorize: 'hasAnyRole('User','Staff')', filter: 'null', filterTarget: 'null']]

@@ -1,0 +1,128 @@
+[2023-02-06 13:06:43] - MetadataSourceProcessor property city with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:city]
+[2023-02-06 13:06:43] - building SimpleValue for city
+[2023-02-06 13:06:43] - Building property city
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=country, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property country with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:country]
+[2023-02-06 13:06:43] - building SimpleValue for country
+[2023-02-06 13:06:43] - Building property country
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=email_address, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property email_Address with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:email_Address]
+[2023-02-06 13:06:43] - building SimpleValue for email_Address
+[2023-02-06 13:06:43] - Building property email_Address
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=parent_name, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property parent_Name with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:parent_Name]
+[2023-02-06 13:06:43] - building SimpleValue for parent_Name
+[2023-02-06 13:06:43] - Building property parent_Name
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=primary_contact_person_mobile_no, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property primary_Contact_Person_Mobile_No with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:primary_Contact_Person_Mobile_No]
+[2023-02-06 13:06:43] - building SimpleValue for primary_Contact_Person_Mobile_No
+[2023-02-06 13:06:43] - Building property primary_Contact_Person_Mobile_No
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=primary_contact_person_name, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property primary_Contact_Person_Name with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:primary_Contact_Person_Name]
+[2023-02-06 13:06:43] - building SimpleValue for primary_Contact_Person_Name
+[2023-02-06 13:06:43] - Building property primary_Contact_Person_Name
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=secondary_contact_person_mobile_no, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property secondary_Contact_Person_Mobile_No with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:secondary_Contact_Person_Mobile_No]
+[2023-02-06 13:06:43] - building SimpleValue for secondary_Contact_Person_Mobile_No
+[2023-02-06 13:06:43] - Building property secondary_Contact_Person_Mobile_No
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=secondary_contact_person_name, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property secondary_Contact_Person_Name with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:secondary_Contact_Person_Name]
+[2023-02-06 13:06:43] - building SimpleValue for secondary_Contact_Person_Name
+[2023-02-06 13:06:43] - Building property secondary_Contact_Person_Name
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=state, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property state with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:state]
+[2023-02-06 13:06:43] - building SimpleValue for state
+[2023-02-06 13:06:43] - Building property state
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=student_name, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property student_Name with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:student_Name]
+[2023-02-06 13:06:43] - building SimpleValue for student_Name
+[2023-02-06 13:06:43] - Building property student_Name
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=student_register_number, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property student_Register_Number with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:student_Register_Number]
+[2023-02-06 13:06:43] - building SimpleValue for student_Register_Number
+[2023-02-06 13:06:43] - Building property student_Register_Number
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(parent), mappingColumn=zip_code, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property zip_Code with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Parent:zip_Code]
+[2023-02-06 13:06:43] - building SimpleValue for zip_Code
+[2023-02-06 13:06:43] - Building property zip_Code
+[2023-02-06 13:06:43] - Binding entity from annotated class: com.SchoolApp.Entity.Role
+[2023-02-06 13:06:43] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2023-02-06 13:06:43] - Import with entity name Role
+[2023-02-06 13:06:43] - Bind entity com.SchoolApp.Entity.Role on table role
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=role_name, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - Not known whether passed class name [com.SchoolApp.Entity.Role] is safe
+[2023-02-06 13:06:43] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.Role
+[2023-02-06 13:06:43] - MetadataSourceProcessor property roleName with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Role:roleName]
+[2023-02-06 13:06:43] - building SimpleValue for roleName
+[2023-02-06 13:06:43] - Building property roleName
+[2023-02-06 13:06:43] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(role_name)]), roleName, assigned, , ...)
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=role_description, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property roleDescription with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Role:roleDescription]
+[2023-02-06 13:06:43] - building SimpleValue for roleDescription
+[2023-02-06 13:06:43] - Building property roleDescription
+[2023-02-06 13:06:43] - Binding entity from annotated class: com.SchoolApp.Entity.Staff
+[2023-02-06 13:06:43] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2023-02-06 13:06:43] - Import with entity name Staff
+[2023-02-06 13:06:43] - Bind entity com.SchoolApp.Entity.Staff on table staff
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(staff), mappingColumn=staff_id, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - Not known whether passed class name [com.SchoolApp.Entity.Staff] is safe
+[2023-02-06 13:06:43] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.Staff
+[2023-02-06 13:06:43] - MetadataSourceProcessor property staff_ID with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Staff:staff_ID]
+[2023-02-06 13:06:43] - building SimpleValue for staff_ID
+[2023-02-06 13:06:43] - Building property staff_ID
+[2023-02-06 13:06:43] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(staff_id)]), staff_ID, identity, , ...)
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(staff), mappingColumn=information_text, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property information_Text with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Staff:information_Text]
+[2023-02-06 13:06:43] - building SimpleValue for information_Text
+[2023-02-06 13:06:43] - Building property information_Text
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(staff), mappingColumn=notification_date, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property notification_Date with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Staff:notification_Date]
+[2023-02-06 13:06:43] - building SimpleValue for notification_Date
+[2023-02-06 13:06:43] - Building property notification_Date
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(staff), mappingColumn=notification_posted_by, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - MetadataSourceProcessor property notification_Posted_By with lazy=false
+[2023-02-06 13:06:43] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.Staff:notification_Posted_By]
+[2023-02-06 13:06:43] - building SimpleValue for notification_Posted_By
+[2023-02-06 13:06:43] - Building property notification_Posted_By
+[2023-02-06 13:06:43] - Binding entity from annotated class: com.SchoolApp.Entity.User
+[2023-02-06 13:06:43] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2023-02-06 13:06:43] - Import with entity name User
+[2023-02-06 13:06:43] - Bind entity com.SchoolApp.Entity.User on table user
+[2023-02-06 13:06:44] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:44] - Not known whether passed class name [com.SchoolApp.Entity.User] is safe
+[2023-02-06 13:06:44] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.User
+[2023-02-06 13:06:44] - MetadataSourceProcessor property userName with lazy=false
+[2023-02-06 13:06:44] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.User:userName]
+[2023-02-06 13:06:44] - building SimpleValue for userName
+[2023-02-06 13:06:44] - Building property userName
+[2023-02-06 13:06:44] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(user_name)]), userName, assigned, , ...)
+[2023-02-06 13:06:44] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:44] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:44] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=role_key, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:44] - Binding column: Ejb3JoinColumn{logicalColumnName='role_KEY', referencedColumn='null', mappedBy='null'}
+[2023-02-06 13:06:44] - Binding column: Ejb3JoinColumn{logicalColumnName='USER_ID', referencedColumn='', mappedBy=''}
+[2023-02-06 13:06:44] - Binding column: Ejb3JoinColumn{logicalColumnName='ROLE_ID', referencedColumn='', mappedBy=''}
+[2023-02-06 13:06:44] - Collection role: com.SchoolApp.Entity.User.role
+[2023-02-06 13:06:44] - Building property role
+[2023-02-06 13:06:44] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_first_name, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:44] - MetadataSourceProcessor property userFirstName with lazy=false
+[2023-02-06 13:06:44] - Attempting to locate auto-apply AttributeConverter for property [com.SchoolApp.Entity.User:userFirstName]
+[2023-02-06 13:06:44] - building SimpleValue for userFirstName
+[2023-02-06 13:06:44] - Building property userFirstName

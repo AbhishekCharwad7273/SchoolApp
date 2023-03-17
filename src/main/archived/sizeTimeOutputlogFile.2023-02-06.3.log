@@ -1,0 +1,136 @@
+[2023-02-06 13:06:41] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7f2b39a
+[2023-02-06 13:06:41] - Adding type registration class -> org.hibernate.type.ClassType@6afbe6a1
+[2023-02-06 13:06:41] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6afbe6a1
+[2023-02-06 13:06:41] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3c33fcf8
+[2023-02-06 13:06:41] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3c33fcf8
+[2023-02-06 13:06:41] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@70091872
+[2023-02-06 13:06:41] - Adding type registration binary -> org.hibernate.type.BinaryType@440ef8d
+[2023-02-06 13:06:41] - Adding type registration byte[] -> org.hibernate.type.BinaryType@440ef8d
+[2023-02-06 13:06:41] - Adding type registration [B -> org.hibernate.type.BinaryType@440ef8d
+[2023-02-06 13:06:41] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5e9bf744
+[2023-02-06 13:06:41] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5e9bf744
+[2023-02-06 13:06:41] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5e9bf744
+[2023-02-06 13:06:41] - Adding type registration row_version -> org.hibernate.type.RowVersionType@2b441e56
+[2023-02-06 13:06:41] - Adding type registration image -> org.hibernate.type.ImageType@1a2773a8
+[2023-02-06 13:06:41] - Adding type registration characters -> org.hibernate.type.CharArrayType@1cde374
+[2023-02-06 13:06:41] - Adding type registration char[] -> org.hibernate.type.CharArrayType@1cde374
+[2023-02-06 13:06:41] - Adding type registration [C -> org.hibernate.type.CharArrayType@1cde374
+[2023-02-06 13:06:41] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@2e4eda17
+[2023-02-06 13:06:41] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@2e4eda17
+[2023-02-06 13:06:41] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@2e4eda17
+[2023-02-06 13:06:41] - Adding type registration text -> org.hibernate.type.TextType@799f354a
+[2023-02-06 13:06:41] - Adding type registration ntext -> org.hibernate.type.NTextType@7af1d072
+[2023-02-06 13:06:41] - Adding type registration blob -> org.hibernate.type.BlobType@11826398
+[2023-02-06 13:06:41] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@11826398
+[2023-02-06 13:06:41] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1894fa9f
+[2023-02-06 13:06:41] - Adding type registration clob -> org.hibernate.type.ClobType@63f9ddf9
+[2023-02-06 13:06:41] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@63f9ddf9
+[2023-02-06 13:06:41] - Adding type registration nclob -> org.hibernate.type.NClobType@38087342
+[2023-02-06 13:06:41] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@38087342
+[2023-02-06 13:06:41] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5d9d2119
+[2023-02-06 13:06:41] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4e974b9e
+[2023-02-06 13:06:41] - Adding type registration serializable -> org.hibernate.type.SerializableType@7bf018dd
+[2023-02-06 13:06:41] - Adding type registration object -> org.hibernate.type.ObjectType@1510b9a2
+[2023-02-06 13:06:41] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1510b9a2
+[2023-02-06 13:06:41] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1471b98d
+[2023-02-06 13:06:41] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5514579e
+[2023-02-06 13:06:41] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@58c42c8c
+[2023-02-06 13:06:41] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3af236d0
+[2023-02-06 13:06:41] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@23564dd2
+[2023-02-06 13:06:41] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@54895681
+[2023-02-06 13:06:41] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2dd0a0d0
+[2023-02-06 13:06:41] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6bf570c
+[2023-02-06 13:06:41] - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@591f6f83] into BootstrapContext; was [null]
+[2023-02-06 13:06:41] - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@591f6f83) [was null]
+[2023-02-06 13:06:41] - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@eaf8427] into BootstrapContext; was [null]
+[2023-02-06 13:06:41] - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@4bf4680c] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@6d6039df]
+[2023-02-06 13:06:41] - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@591f6f83]
+[2023-02-06 13:06:41] - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@591f6f83]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2023-02-06 13:06:41] - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2023-02-06 13:06:41] - HikariPool-1 - configuration:
+[2023-02-06 13:06:41] - allowPoolSuspension................................false
+[2023-02-06 13:06:41] - autoCommit................................true
+[2023-02-06 13:06:41] - catalog................................none
+[2023-02-06 13:06:41] - connectionInitSql................................none
+[2023-02-06 13:06:41] - connectionTestQuery................................none
+[2023-02-06 13:06:41] - connectionTimeout................................30000
+[2023-02-06 13:06:41] - dataSource................................none
+[2023-02-06 13:06:41] - dataSourceClassName................................none
+[2023-02-06 13:06:41] - dataSourceJNDI................................none
+[2023-02-06 13:06:41] - dataSourceProperties................................{password=<masked>}
+[2023-02-06 13:06:41] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+[2023-02-06 13:06:41] - exceptionOverrideClassName................................none
+[2023-02-06 13:06:41] - healthCheckProperties................................{}
+[2023-02-06 13:06:41] - healthCheckRegistry................................none
+[2023-02-06 13:06:41] - idleTimeout................................600000
+[2023-02-06 13:06:41] - initializationFailTimeout................................1
+[2023-02-06 13:06:41] - isolateInternalQueries................................false
+[2023-02-06 13:06:41] - jdbcUrl................................jdbc:mysql://localhost/schoolparentapp
+[2023-02-06 13:06:41] - keepaliveTime................................0
+[2023-02-06 13:06:41] - leakDetectionThreshold................................0
+[2023-02-06 13:06:41] - maxLifetime................................1800000
+[2023-02-06 13:06:41] - maximumPoolSize................................10
+[2023-02-06 13:06:41] - metricRegistry................................none
+[2023-02-06 13:06:41] - metricsTrackerFactory................................none
+[2023-02-06 13:06:41] - minimumIdle................................10
+[2023-02-06 13:06:41] - password................................<masked>
+[2023-02-06 13:06:41] - poolName................................"HikariPool-1"
+[2023-02-06 13:06:41] - readOnly................................false
+[2023-02-06 13:06:41] - registerMbeans................................false
+[2023-02-06 13:06:41] - scheduledExecutor................................none
+[2023-02-06 13:06:41] - schema................................none
+[2023-02-06 13:06:41] - threadFactory................................internal
+[2023-02-06 13:06:41] - transactionIsolation................................default
+[2023-02-06 13:06:41] - username................................"root"
+[2023-02-06 13:06:41] - validationTimeout................................5000
+[2023-02-06 13:06:41] - HikariPool-1 - Starting...
+[2023-02-06 13:06:42] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5464b97c
+[2023-02-06 13:06:42] - HikariPool-1 - Start completed.
+[2023-02-06 13:06:42] - Database ->
+       name : MySQL
+    version : 8.0.29
+      major : 8
+      minor : 0
+[2023-02-06 13:06:42] - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-j-8.0.32 (Revision: fa4912a849140828e48162a2c396c8df0091bed7)
+      major : 8
+      minor : 0
+[2023-02-06 13:06:42] - JDBC version : 4.2
+[2023-02-06 13:06:42] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2023-02-06 13:06:42] - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[2023-02-06 13:06:42] - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[2023-02-06 13:06:43] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@17d816b3] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@126675fd]
+[2023-02-06 13:06:43] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55709a76
+[2023-02-06 13:06:43] - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@355f6539
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74082cbf
+[2023-02-06 13:06:43] - Binding entity from annotated class: com.SchoolApp.Entity.AcknowledgedDetails
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31113ccf
+[2023-02-06 13:06:43] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a1fe14
+[2023-02-06 13:06:43] - Import with entity name AcknowledgedDetails
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@db23fb2
+[2023-02-06 13:06:43] - Bind entity com.SchoolApp.Entity.AcknowledgedDetails on table acknowledged_details
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38c27417
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ac65f2d
+[2023-02-06 13:06:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6932a1a9
+[2023-02-06 13:06:43] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2023-02-06 13:06:43] - Binding column: Ejb3JoinColumn{logicalColumnName='ack_ID', referencedColumn='', mappedBy=''}
+[2023-02-06 13:06:43] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(acknowledged_details), mappingColumn=ack_id, insertable=true, updatable=true, unique=false}
+[2023-02-06 13:06:43] - Not known whether passed class name [com.SchoolApp.Entity.AcknowledgedDetails] is safe
+[2023-02-06 13:06:43] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.SchoolApp.Entity.AcknowledgedDetails

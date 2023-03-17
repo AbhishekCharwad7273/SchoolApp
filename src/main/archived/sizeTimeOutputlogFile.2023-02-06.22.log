@@ -1,0 +1,128 @@
+[2023-02-06 13:07:30] - @org.springframework.security.access.prepost.PreAuthorize("hasRole(\'User\')") found on specific method: public com.SchoolApp.Entity.Parent com.SchoolApp.Controller.ParentController.updateParentDetail(com.SchoolApp.Entity.Parent)
+[2023-02-06 13:07:30] - Caching method [CacheKey[com.SchoolApp.Controller.ParentController; public com.SchoolApp.Entity.Parent com.SchoolApp.Controller.ParentController.updateParentDetail(com.SchoolApp.Entity.Parent)]] with attributes [[authorize: 'hasRole('User')', filter: 'null', filterTarget: 'null']]
+[2023-02-06 13:07:30] - @org.springframework.security.access.prepost.PreAuthorize("hasRole(\'User\')") found on specific method: public com.SchoolApp.Entity.Parent com.SchoolApp.Controller.ParentController.addParentDetail(com.SchoolApp.Entity.Parent)
+[2023-02-06 13:07:30] - Caching method [CacheKey[com.SchoolApp.Controller.ParentController; public com.SchoolApp.Entity.Parent com.SchoolApp.Controller.ParentController.addParentDetail(com.SchoolApp.Entity.Parent)]] with attributes [[authorize: 'hasRole('User')', filter: 'null', filterTarget: 'null']]
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'roleController'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'roleService'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'roleRepo'
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Initializing repository instance for com.SchoolApp.Repository.RoleRepo…
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Finished creation of repository instance for com.SchoolApp.Repository.RoleRepo.
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'staffController'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'staffService'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'staffRepo'
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Initializing repository instance for com.SchoolApp.Repository.StaffRepo…
+[2023-02-06 13:07:30] - Creating new EntityManager for shared EntityManager invocation
+[2023-02-06 13:07:30] - Finished creation of repository instance for com.SchoolApp.Repository.StaffRepo.
+[2023-02-06 13:07:30] - @org.springframework.security.access.prepost.PreAuthorize("hasRole(\'Staff\')") found on specific method: public com.SchoolApp.Entity.Staff com.SchoolApp.Controller.StaffController.createCircular(com.SchoolApp.Entity.Staff)
+[2023-02-06 13:07:30] - Caching method [CacheKey[com.SchoolApp.Controller.StaffController; public com.SchoolApp.Entity.Staff com.SchoolApp.Controller.StaffController.createCircular(com.SchoolApp.Entity.Staff)]] with attributes [[authorize: 'hasRole('Staff')', filter: 'null', filterTarget: 'null']]
+[2023-02-06 13:07:30] - @org.springframework.security.access.prepost.PreAuthorize("hasAnyRole(\'Staff\',\'User\')") found on specific method: public java.util.List com.SchoolApp.Controller.StaffController.getAllCircular()
+[2023-02-06 13:07:30] - Caching method [CacheKey[com.SchoolApp.Controller.StaffController; public java.util.List com.SchoolApp.Controller.StaffController.getAllCircular()]] with attributes [[authorize: 'hasAnyRole('Staff','User')', filter: 'null', filterTarget: 'null']]
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'userController'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'userService'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'transactionManager'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'platformTransactionManagerCustomizers'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+[2023-02-06 13:07:30] - Creating shared instance of singleton bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties'
+[2023-02-06 13:07:30] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-02-06 13:07:30] - Opened new EntityManager [SessionImpl(1794130044<open>)] for JPA transaction
+[2023-02-06 13:07:30] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2023-02-06 13:07:30] - begin
+[2023-02-06 13:07:30] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@530a46f4]
+[2023-02-06 13:07:30] - Configured EntityCopyObserver strategy: disallow
+[2023-02-06 13:07:30] - Static select for action ACTION_MERGE on entity com.SchoolApp.Entity.Role: select role0_.role_name as role_nam1_3_0_, role0_.role_description as role_des2_3_0_ from role role0_ where role0_.role_name=?
+[2023-02-06 13:07:30] - Loading entity: [com.SchoolApp.Entity.Role#Staff]
+[2023-02-06 13:07:30] - select role0_.role_name as role_nam1_3_0_, role0_.role_description as role_des2_3_0_ from role role0_ where role0_.role_name=?
+[2023-02-06 13:07:30] - Result set row: 0
+[2023-02-06 13:07:30] - Result row: EntityKey[com.SchoolApp.Entity.Role#Staff]
+[2023-02-06 13:07:30] - Resolving attributes for [com.SchoolApp.Entity.Role#Staff]
+[2023-02-06 13:07:30] - Processing attribute `roleDescription` : value = Staff Role
+[2023-02-06 13:07:30] - Attribute (`roleDescription`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:07:30] - Done materializing entity [com.SchoolApp.Entity.Role#Staff]
+[2023-02-06 13:07:30] - Done entity load
+[2023-02-06 13:07:30] - Initiating transaction commit
+[2023-02-06 13:07:30] - Committing JPA transaction on EntityManager [SessionImpl(1794130044<open>)]
+[2023-02-06 13:07:30] - committing
+[2023-02-06 13:07:30] - Processing flush-time cascades
+[2023-02-06 13:07:30] - Dirty checking collections
+[2023-02-06 13:07:30] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[2023-02-06 13:07:30] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2023-02-06 13:07:30] - Listing entities:
+[2023-02-06 13:07:30] - com.SchoolApp.Entity.Role{roleName=Staff, roleDescription=Staff Role}
+[2023-02-06 13:07:30] - Closing JPA EntityManager [SessionImpl(1794130044<open>)] after transaction
+[2023-02-06 13:07:30] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-02-06 13:07:30] - Opened new EntityManager [SessionImpl(801822521<open>)] for JPA transaction
+[2023-02-06 13:07:30] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2023-02-06 13:07:30] - begin
+[2023-02-06 13:07:30] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@10664c3d]
+[2023-02-06 13:07:30] - Loading entity: [com.SchoolApp.Entity.Role#User]
+[2023-02-06 13:07:30] - select role0_.role_name as role_nam1_3_0_, role0_.role_description as role_des2_3_0_ from role role0_ where role0_.role_name=?
+[2023-02-06 13:07:30] - Result set row: 0
+[2023-02-06 13:07:30] - Result row: EntityKey[com.SchoolApp.Entity.Role#User]
+[2023-02-06 13:07:30] - Resolving attributes for [com.SchoolApp.Entity.Role#User]
+[2023-02-06 13:07:30] - Processing attribute `roleDescription` : value = Parent Role
+[2023-02-06 13:07:30] - Attribute (`roleDescription`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:07:30] - Done materializing entity [com.SchoolApp.Entity.Role#User]
+[2023-02-06 13:07:30] - Done entity load
+[2023-02-06 13:07:30] - Initiating transaction commit
+[2023-02-06 13:07:30] - Committing JPA transaction on EntityManager [SessionImpl(801822521<open>)]
+[2023-02-06 13:07:30] - committing
+[2023-02-06 13:07:30] - Processing flush-time cascades
+[2023-02-06 13:07:30] - Dirty checking collections
+[2023-02-06 13:07:30] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[2023-02-06 13:07:30] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2023-02-06 13:07:30] - Listing entities:
+[2023-02-06 13:07:30] - com.SchoolApp.Entity.Role{roleName=User, roleDescription=Parent Role}
+[2023-02-06 13:07:30] - Closing JPA EntityManager [SessionImpl(801822521<open>)] after transaction
+[2023-02-06 13:07:30] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2023-02-06 13:07:30] - Opened new EntityManager [SessionImpl(1463891130<open>)] for JPA transaction
+[2023-02-06 13:07:30] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2023-02-06 13:07:30] - begin
+[2023-02-06 13:07:30] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@57063e08]
+[2023-02-06 13:07:30] - Static select for action ACTION_MERGE on entity com.SchoolApp.Entity.User: select user0_.user_name as user_nam1_5_1_, user0_.user_first_name as user_fir2_5_1_, user0_.user_last_name as user_las3_5_1_, user0_.user_password as user_pas4_5_1_, role1_.user_id as user_id1_6_3_, role2_.role_name as role_id2_6_3_, role2_.role_name as role_nam1_3_0_, role2_.role_description as role_des2_3_0_ from user user0_ left outer join user_role role1_ on user0_.user_name=role1_.user_id left outer join role role2_ on role1_.role_id=role2_.role_name where user0_.user_name=?
+[2023-02-06 13:07:30] - Loading entity: [com.SchoolApp.Entity.User#staff123]
+[2023-02-06 13:07:30] - select user0_.user_name as user_nam1_5_1_, user0_.user_first_name as user_fir2_5_1_, user0_.user_last_name as user_las3_5_1_, user0_.user_password as user_pas4_5_1_, role1_.user_id as user_id1_6_3_, role2_.role_name as role_id2_6_3_, role2_.role_name as role_nam1_3_0_, role2_.role_description as role_des2_3_0_ from user user0_ left outer join user_role role1_ on user0_.user_name=role1_.user_id left outer join role role2_ on role1_.role_id=role2_.role_name where user0_.user_name=?
+[2023-02-06 13:07:30] - Result set row: 0
+[2023-02-06 13:07:30] - Result row: EntityKey[com.SchoolApp.Entity.Role#Staff], EntityKey[com.SchoolApp.Entity.User#staff123]
+[2023-02-06 13:07:30] - Found row of collection: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:07:30] - Resolving attributes for [com.SchoolApp.Entity.Role#Staff]
+[2023-02-06 13:07:30] - Processing attribute `roleDescription` : value = Staff Role
+[2023-02-06 13:07:30] - Attribute (`roleDescription`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:07:30] - Done materializing entity [com.SchoolApp.Entity.Role#Staff]
+[2023-02-06 13:07:30] - Resolving attributes for [com.SchoolApp.Entity.User#staff123]
+[2023-02-06 13:07:30] - Processing attribute `role` : value = NOT NULL COLLECTION
+[2023-02-06 13:07:30] - Attribute (`role`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:07:30] - Processing attribute `userFirstName` : value = staff
+[2023-02-06 13:07:30] - Attribute (`userFirstName`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:07:30] - Processing attribute `userLastName` : value = staff
+[2023-02-06 13:07:30] - Attribute (`userLastName`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:07:30] - Processing attribute `userPassword` : value = $2a$10$m71FU/ZXn8qSPCAoo9nEGetmP8V9kXnoMcDAnmYTpIRxna.ryLpKO
+[2023-02-06 13:07:30] - Attribute (`userPassword`)  - enhanced for lazy-loading? - false
+[2023-02-06 13:07:30] - Done materializing entity [com.SchoolApp.Entity.User#staff123]
+[2023-02-06 13:07:30] - 1 collections were found in result set for role: com.SchoolApp.Entity.User.role
+[2023-02-06 13:07:30] - Collection fully initialized: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:07:30] - 1 collections initialized for role: com.SchoolApp.Entity.User.role
+[2023-02-06 13:07:30] - Done entity load
+[2023-02-06 13:07:30] - Initiating transaction commit
+[2023-02-06 13:07:30] - Committing JPA transaction on EntityManager [SessionImpl(1463891130<open>)]
+[2023-02-06 13:07:30] - committing
+[2023-02-06 13:07:30] - Processing flush-time cascades
+[2023-02-06 13:07:30] - Dirty checking collections
+[2023-02-06 13:07:30] - Collection dirty: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:07:30] - Collection found: [com.SchoolApp.Entity.User.role#staff123], was: [com.SchoolApp.Entity.User.role#staff123] (initialized)
+[2023-02-06 13:07:30] - Flushed: 0 insertions, 1 updates, 0 deletions to 2 objects
+[2023-02-06 13:07:30] - Flushed: 0 (re)creations, 1 updates, 0 removals to 1 collections
+[2023-02-06 13:07:30] - Listing entities:
+[2023-02-06 13:07:30] - com.SchoolApp.Entity.User{userPassword=$2a$10$h2/mopVSGNxGiOz/iIFC1u9X9NKxyHQ2wyNoP0Ojv9PkmFFO5jji., role=[com.SchoolApp.Entity.Role#Staff], userLastName=staff, userFirstName=staff, userName=staff123}
+[2023-02-06 13:07:30] - com.SchoolApp.Entity.Role{roleName=Staff, roleDescription=Staff Role}
+[2023-02-06 13:07:30] - update user set user_first_name=?, user_last_name=?, user_password=? where user_name=?
+[2023-02-06 13:07:30] - Deleting rows of collection: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:07:30] - No rows to delete
+[2023-02-06 13:07:30] - Inserting rows of collection: [com.SchoolApp.Entity.User.role#staff123]
+[2023-02-06 13:07:30] - Done inserting rows: 0 inserted
+[2023-02-06 13:07:31] - Closing JPA EntityManager [SessionImpl(1463891130<open>)] after transaction
+[2023-02-06 13:07:31] - HHH000420: Closing un-released batch
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'validationHandler'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'

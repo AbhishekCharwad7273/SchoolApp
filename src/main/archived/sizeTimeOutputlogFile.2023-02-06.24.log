@@ -1,0 +1,128 @@
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'sortResolver'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'sortCustomizer'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration' via constructor to bean named 'spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'pageableResolver'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'pageableCustomizer'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'applicationTaskExecutor'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+[2023-02-06 13:07:31] - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-02-06 13:07:31] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'localeResolver'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'themeResolver'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'flashMapManager'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'mvcPatternParser'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'mvcPathMatcher'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'handlerFunctionAdapter'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'handlerExceptionResolver'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+[2023-02-06 13:07:31] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'mvcViewResolver'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'viewNameTranslator'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'defaultViewResolver'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'viewResolver'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1c4ee95c'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'spring.jmx-org.springframework.boot.autoconfigure.jmx.JmxProperties'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' via constructor to bean named 'spring.jmx-org.springframework.boot.autoconfigure.jmx.JmxProperties'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'mbeanExporter'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'objectNamingStrategy'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'mbeanExporter' via factory method to bean named 'objectNamingStrategy'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'mbeanExporter' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1c4ee95c'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'mbeanServer'
+[2023-02-06 13:07:31] - Found MBeanServer: com.sun.jmx.mbeanserver.JmxMBeanServer@2781e022
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'springApplicationAdminRegistrar'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'springApplicationAdminRegistrar' via factory method to bean named 'environment'
+[2023-02-06 13:07:31] - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'applicationAvailability'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari' via constructor to bean named 'dataSource'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'lifecycleProcessor'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'lifecycleProcessor' via factory method to bean named 'spring.lifecycle-org.springframework.boot.autoconfigure.context.LifecycleProperties'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.data.jpa.util.JpaMetamodelCacheCleanup'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'jdbcTemplate'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'dataSource'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'jdbcTemplate' via factory method to bean named 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'namedParameterJdbcTemplate'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'namedParameterJdbcTemplate' via factory method to bean named 'jdbcTemplate'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'spring.netty-org.springframework.boot.autoconfigure.netty.NettyProperties'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.netty.NettyAutoConfiguration' via constructor to bean named 'spring.netty-org.springframework.boot.autoconfigure.netty.NettyProperties'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'taskSchedulerBuilder'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'taskSchedulerBuilder' via factory method to bean named 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+[2023-02-06 13:07:31] - Creating shared instance of singleton bean 'transactionTemplate'
+[2023-02-06 13:07:31] - Autowiring by type from bean name 'transactionTemplate' via factory method to bean named 'transactionManager'
+[2023-02-06 13:07:32] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+[2023-02-06 13:07:32] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+[2023-02-06 13:07:32] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorConfiguration$ReactorNetty'
+[2023-02-06 13:07:32] - Creating shared instance of singleton bean 'reactorClientResourceFactory'
+[2023-02-06 13:07:32] - Using Slf4j logging framework
+[2023-02-06 13:07:32] - Using SLF4J as the default logging framework
+[2023-02-06 13:07:32] - -Dio.netty.noUnsafe: false
+[2023-02-06 13:07:32] - Java version: 17
+[2023-02-06 13:07:32] - sun.misc.Unsafe.theUnsafe: available
+[2023-02-06 13:07:32] - sun.misc.Unsafe.copyMemory: available
+[2023-02-06 13:07:32] - sun.misc.Unsafe.storeFence: available
+[2023-02-06 13:07:32] - java.nio.Buffer.address: available
+[2023-02-06 13:07:32] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[2023-02-06 13:07:32] - java.nio.Bits.unaligned: available, true
+[2023-02-06 13:07:32] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @aba625
+[2023-02-06 13:07:32] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[2023-02-06 13:07:32] - sun.misc.Unsafe: available
+[2023-02-06 13:07:32] - maxDirectMemory: 1048576000 bytes (maybe)
+[2023-02-06 13:07:32] - -Dio.netty.tmpdir: C:\Users\Dell\AppData\Local\Temp (java.io.tmpdir)
+[2023-02-06 13:07:32] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2023-02-06 13:07:32] - Platform: Windows
+[2023-02-06 13:07:32] - -Dio.netty.maxDirectMemory: -1 bytes
+[2023-02-06 13:07:32] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[2023-02-06 13:07:32] - java.nio.ByteBuffer.cleaner(): available
+[2023-02-06 13:07:32] - -Dio.netty.noPreferDirect: false
+[2023-02-06 13:07:32] - [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=4, workerCount=4}
+[2023-02-06 13:07:32] - [http] resources will use the default ConnectionProvider: reactor.netty.resources.DefaultPooledConnectionProvider@68a1bb31
+[2023-02-06 13:07:32] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.ClientHttpConnectorAutoConfiguration'
+[2023-02-06 13:07:32] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration$WebClientCodecsConfiguration'
+[2023-02-06 13:07:32] - Creating shared instance of singleton bean 'exchangeStrategiesCustomizer'

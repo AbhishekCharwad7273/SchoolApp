@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.PastOrPresent;
 
-
+import org.hibernate.annotations.ForeignKey;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -35,12 +35,17 @@ public class AcknowledgedDetails {
 
 	private boolean acknowledged;
 
+
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "registration_ID")
+	//@ForeignKey(name = "registration_ID")
 	private Parent parent;
 
 	// @PastOrPresent
 	private LocalDate notification_Date;
+	
+	
+
 
 	@NotEmpty
 	private String information_Text;

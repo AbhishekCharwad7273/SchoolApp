@@ -1,0 +1,118 @@
+[2023-02-06 13:06:46] - Visiting attribute path : address
+[2023-02-06 13:06:46] - Visiting attribute path : city
+[2023-02-06 13:06:46] - Visiting attribute path : country
+[2023-02-06 13:06:46] - Visiting attribute path : email_Address
+[2023-02-06 13:06:46] - Visiting attribute path : parent_Name
+[2023-02-06 13:06:46] - Visiting attribute path : primary_Contact_Person_Mobile_No
+[2023-02-06 13:06:46] - Visiting attribute path : primary_Contact_Person_Name
+[2023-02-06 13:06:46] - Visiting attribute path : secondary_Contact_Person_Mobile_No
+[2023-02-06 13:06:46] - Visiting attribute path : secondary_Contact_Person_Name
+[2023-02-06 13:06:46] - Visiting attribute path : state
+[2023-02-06 13:06:46] - Visiting attribute path : student_Name
+[2023-02-06 13:06:46] - Visiting attribute path : student_Register_Number
+[2023-02-06 13:06:46] - Visiting attribute path : zip_Code
+[2023-02-06 13:06:46] - Building LoadPlan...
+[2023-02-06 13:06:46] - processing queryspace <gen:0>
+[2023-02-06 13:06:46] - LoadPlan(entity=com.SchoolApp.Entity.Parent)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.Parent, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.Parent)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.Parent)
+          - SQL table alias mapping - parent0_
+          - alias suffix - 0_
+          - suffixed key columns - {registra1_2_0_}
+
+[2023-02-06 13:06:46] - Static select for entity com.SchoolApp.Entity.Parent [NONE]: select parent0_.registration_id as registra1_2_0_, parent0_.address as address2_2_0_, parent0_.city as city3_2_0_, parent0_.country as country4_2_0_, parent0_.email_address as email_ad5_2_0_, parent0_.parent_name as parent_n6_2_0_, parent0_.primary_contact_person_mobile_no as primary_7_2_0_, parent0_.primary_contact_person_name as primary_8_2_0_, parent0_.secondary_contact_person_mobile_no as secondar9_2_0_, parent0_.secondary_contact_person_name as seconda10_2_0_, parent0_.state as state11_2_0_, parent0_.student_name as student12_2_0_, parent0_.student_register_number as student13_2_0_, parent0_.zip_code as zip_cod14_2_0_ from parent parent0_ where parent0_.registration_id=?
+[2023-02-06 13:06:46] - Static SQL for entity: com.SchoolApp.Entity.Staff
+[2023-02-06 13:06:46] -  Version select: select staff_id from staff where staff_id =?
+[2023-02-06 13:06:46] -  Snapshot select: select staff_.staff_id, staff_.information_text as informat2_4_, staff_.notification_date as notifica3_4_, staff_.notification_posted_by as notifica4_4_ from staff staff_ where staff_.staff_id=?
+[2023-02-06 13:06:46] -  Insert 0: insert into staff (information_text, notification_date, notification_posted_by, staff_id) values (?, ?, ?, ?)
+[2023-02-06 13:06:46] -  Update 0: update staff set information_text=?, notification_date=?, notification_posted_by=? where staff_id=?
+[2023-02-06 13:06:46] -  Delete 0: delete from staff where staff_id=?
+[2023-02-06 13:06:46] -  Identity insert: insert into staff (information_text, notification_date, notification_posted_by) values (?, ?, ?)
+[2023-02-06 13:06:46] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@a4dcede]
+[2023-02-06 13:06:46] - Visiting attribute path : information_Text
+[2023-02-06 13:06:46] - Visiting attribute path : notification_Date
+[2023-02-06 13:06:46] - Visiting attribute path : notification_Posted_By
+[2023-02-06 13:06:46] - Building LoadPlan...
+[2023-02-06 13:06:46] - processing queryspace <gen:0>
+[2023-02-06 13:06:46] - LoadPlan(entity=com.SchoolApp.Entity.Staff)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.Staff, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.Staff)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.Staff)
+          - SQL table alias mapping - staff0_
+          - alias suffix - 0_
+          - suffixed key columns - {staff_id1_4_0_}
+
+[2023-02-06 13:06:46] - Static select for entity com.SchoolApp.Entity.Staff [NONE]: select staff0_.staff_id as staff_id1_4_0_, staff0_.information_text as informat2_4_0_, staff0_.notification_date as notifica3_4_0_, staff0_.notification_posted_by as notifica4_4_0_ from staff staff0_ where staff0_.staff_id=?
+[2023-02-06 13:06:46] - Static SQL for entity: com.SchoolApp.Entity.User
+[2023-02-06 13:06:46] -  Version select: select user_name from user where user_name =?
+[2023-02-06 13:06:46] -  Snapshot select: select user_.user_name, user_.user_first_name as user_fir2_5_, user_.user_last_name as user_las3_5_, user_.user_password as user_pas4_5_ from user user_ where user_.user_name=?
+[2023-02-06 13:06:46] -  Insert 0: insert into user (user_first_name, user_last_name, user_password, user_name) values (?, ?, ?, ?)
+[2023-02-06 13:06:46] -  Update 0: update user set user_first_name=?, user_last_name=?, user_password=? where user_name=?
+[2023-02-06 13:06:46] -  Delete 0: delete from user where user_name=?
+[2023-02-06 13:06:46] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a773f08]
+[2023-02-06 13:06:46] - Visiting attribute path : role
+[2023-02-06 13:06:46] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@52325940]
+[2023-02-06 13:06:46] - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7865cc83]
+[2023-02-06 13:06:46] - Visiting attribute path : role.roleDescription
+[2023-02-06 13:06:46] - Visiting attribute path : userFirstName
+[2023-02-06 13:06:46] - Visiting attribute path : userLastName
+[2023-02-06 13:06:46] - Visiting attribute path : userPassword
+[2023-02-06 13:06:46] - Building LoadPlan...
+[2023-02-06 13:06:46] - processing queryspace <gen:0>
+[2023-02-06 13:06:46] - LoadPlan(entity=com.SchoolApp.Entity.User)
+    - Returns
+       - EntityReturnImpl(entity=com.SchoolApp.Entity.User, querySpaceUid=<gen:0>, path=com.SchoolApp.Entity.User)
+          - CollectionAttributeFetchImpl(collection=com.SchoolApp.Entity.User.role, querySpaceUid=<gen:1>, path=com.SchoolApp.Entity.User.role)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.SchoolApp.Entity.Role, querySpaceUid=<gen:2>, path=com.SchoolApp.Entity.User.role.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.SchoolApp.Entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_nam1_5_0_}
+          - JOIN (JoinDefinedByMetadata(role)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=com.SchoolApp.Entity.User.role)
+                - SQL table alias mapping - role1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id1_6_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - role_nam1_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=com.SchoolApp.Entity.Role)
+                      - SQL table alias mapping - role2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {role_nam1_3_2_}
+
+[2023-02-06 13:06:46] - Static select for entity com.SchoolApp.Entity.User [NONE]: select user0_.user_name as user_nam1_5_0_, user0_.user_first_name as user_fir2_5_0_, user0_.user_last_name as user_las3_5_0_, user0_.user_password as user_pas4_5_0_, role1_.user_id as user_id1_6_1_, role2_.role_name as role_id2_6_1_, role2_.role_name as role_nam1_3_2_, role2_.role_description as role_des2_3_2_ from user user0_ left outer join user_role role1_ on user0_.user_name=role1_.user_id left outer join role role2_ on role1_.role_id=role2_.role_name where user0_.user_name=?
+[2023-02-06 13:06:46] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@434b2e0c]
+[2023-02-06 13:06:46] - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@214e3185]
+[2023-02-06 13:06:46] - Visiting attribute path : roleDescription
+[2023-02-06 13:06:46] - Building LoadPlan...
+[2023-02-06 13:06:46] - processing queryspace <gen:0>
+[2023-02-06 13:06:46] - LoadPlan(collection=com.SchoolApp.Entity.User.role)
+    - Returns
+       - CollectionReturnImpl(collection=com.SchoolApp.Entity.User.role, querySpaceUid=<gen:0>, path=[com.SchoolApp.Entity.User.role])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.SchoolApp.Entity.Role, querySpaceUid=<gen:1>, path=[com.SchoolApp.Entity.User.role].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.SchoolApp.Entity.User.role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id1_6_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - role_nam1_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.SchoolApp.Entity.Role)
+                - SQL table alias mapping - role1_
+                - alias suffix - 1_
+                - suffixed key columns - {role_nam1_3_1_}
+
+[2023-02-06 13:06:46] - Static select for collection com.SchoolApp.Entity.User.role: select role0_.user_id as user_id1_6_0_, role0_.role_id as role_id2_6_0_, role1_.role_name as role_nam1_3_1_, role1_.role_description as role_des2_3_1_ from user_role role0_ inner join role role1_ on role0_.role_id=role1_.role_name where role0_.user_id=?
+[2023-02-06 13:06:47] - No alter strings for table : acknowledged_details
+[2023-02-06 13:06:47] - No alter strings for table : aprove_details
+[2023-02-06 13:06:47] - No alter strings for table : parent
+[2023-02-06 13:06:47] - No alter strings for table : role
+[2023-02-06 13:06:47] - No alter strings for table : staff
+[2023-02-06 13:06:47] - No alter strings for table : user
+[2023-02-06 13:06:47] - No alter strings for table : user_role
